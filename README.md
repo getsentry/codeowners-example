@@ -1,5 +1,7 @@
 ## About
-This repo is an example of how to upload your CODEOWNERS file to Sentry using the API.
+This repo is an example of how to upload your CODEOWNERS file to Sentry using the API. 
+
+This feature is currently in beta. You can request access to this feature by sending us a message to `ecosystem-feedback@sentry.io`.
 
 ## Getting Started
 ```
