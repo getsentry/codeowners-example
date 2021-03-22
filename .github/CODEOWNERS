@@ -1,0 +1,4 @@
+*                       @getsentry/engineering
+/src/integrations       @getsentry/ecosystem
+/src/billing            @getsentry/growth
+/src/api                @getsentry/workflow

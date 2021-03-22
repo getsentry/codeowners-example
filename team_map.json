@@ -1,0 +1,5 @@
+{
+  "sentry": ["@getsentry/engineering"],
+  "ecosystem": ["@getsentry/ecosystem"],
+  "workflow": ["@getsentry/workflow", "@getsentry/growth"]
+}
