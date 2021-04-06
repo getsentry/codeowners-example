@@ -32,7 +32,7 @@ class BaseApiClient {
 
   async put(url, data) {
     try {
-      let res = await axios.pit(url, data);
+      let res = await axios.put(url, data);
       return res.data;
     } catch (error) {
       console.log(error.response);
