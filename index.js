@@ -128,12 +128,12 @@ class ApiClient extends BaseApiClient {
   // Code Mapping
   async getCodeMappings(projectId) {
     return this.get(
-      `/api/0/organizations/${this.organization_slug}/repo-project-path-configs/?projectId=${projectId}`
+      `/api/0/organizations/${this.organization_slug}/code-mappings/?projectId=${projectId}`
     );
   }
   async createCodeMapping(data) {
     return this.post(
-      `/api/0/organizations/${this.organization_slug}/repo-project-path-configs/`,
+      `/api/0/organizations/${this.organization_slug}/code-mappings/`,
       data
     );
   }
